@@ -1,4 +1,4 @@
-# pos-client-v2
+# pos-client
 
 > A Vue.js project
 
