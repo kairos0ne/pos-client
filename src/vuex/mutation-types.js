@@ -1,0 +1,9 @@
+export const SET_AUTH_TOKEN = 'SET_AUTH_TOKEN'
+
+export const SET_CATEGORY_CRUD = 'SET_CATEGORY_CRUD'
+
+export const SET_INVENTORY_CRUD = 'SET_INVENTORY_CRUD'
+
+export const SET_ORDER = 'SET_ORDER'
+
+export const REMOVE_ITEM_ORDER = 'REMOVE_ITEM_ORDER'
