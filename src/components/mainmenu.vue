@@ -9,7 +9,6 @@
         </el-submenu>
       <el-menu-item index="3"><router-link to="/info">Info</router-link> </el-menu-item>
       <el-menu-item index="4" size="small"><router-link to="/order">Orders</router-link></el-menu-item >
-    
       </el-menu>
 </template>
 <script>
@@ -32,7 +31,7 @@ export default {
   },
   methods: {
     handleSelect (key, keyPath) {
-    },
+    }
   }
 }
 </script>

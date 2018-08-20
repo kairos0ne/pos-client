@@ -49,17 +49,15 @@ export default {
   computed: {
     getOrder () {
       return this.$store.getters.getOrder
-    }
-  },
-  created () {
-  },
-  computed: {
+    },
     getOrgId () {
       return sessionStorage.getItem('Organisation ID')
     },
     getAuthKey () {
       return sessionStorage.getItem('Authorisation')
     }
+  },
+  created () {
   },
   updated () {
     const order = this.order
